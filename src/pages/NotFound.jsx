@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-green-50 flex items-center justify-center px-4 py-16">
       <div className="max-w-md w-full text-center space-y-8">
-        {/* Large 404 with Icon */}
+      
         <div className="space-y-4">
           <div className="mx-auto w-24 h-24 bg-white rounded-2xl shadow-2xl flex items-center justify-center">
             <FaOpencart className="h-16 w-16 text-green-600" />
@@ -19,7 +19,7 @@ const NotFound = () => {
           </div>
         </div>
 
-        {/* Error Message */}
+        
         <div className="space-y-4">
           <p className="text-lg text-gray-600 leading-relaxed max-w-sm mx-auto">
             Sorry, the page you're looking for doesn't exist or has been moved.
@@ -29,7 +29,7 @@ const NotFound = () => {
           </p>
         </div>
 
-        {/* Action Buttons */}
+       
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <Link
             to="/"
@@ -47,7 +47,7 @@ const NotFound = () => {
           </Link>
         </div>
 
-        {/* Quick Search */}
+      
         <div className="pt-8 border-t border-gray-200">
           <p className="text-sm text-gray-500 mb-4">Quick links:</p>
           <div className="flex flex-wrap gap-3 justify-center">

@@ -1,4 +1,3 @@
-// src/components/ShopByCategory.jsx
 import React from 'react';
 import {
   FaTshirt,
@@ -27,14 +26,14 @@ const ShopByCategory = () => {
     <section className="w-full bg-gray-50">
       <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-6 sm:py-8">
         <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
-          {/* Left: Heading */}
+     
           <div className="w-full sm:w-1/4">
             <h2 className="text-lg sm:text-2xl font-bold text-gray-900">
               Shop by Category
             </h2>
           </div>
 
-          {/* Right: See all + Category grid */}
+        
           <div className="w-full sm:w-3/4">
             <div className="flex justify-end mb-3">
               <button className="text-sm font-semibold text-green-700 hover:text-green-800 pe-2">

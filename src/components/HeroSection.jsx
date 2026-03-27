@@ -1,4 +1,3 @@
-// src/components/HeroSlider.jsx
 import React from 'react';
 import Slider from 'react-slick';
 
@@ -28,7 +27,6 @@ const HeroSlider = ({ products = [] }) => {
   return (
     <section className="w-full bg-gray-50">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-4 sm:py-6">
-        {/* Heading */}
         <div className="mb-3 sm:mb-4 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-1 sm:gap-2 px-1 sm:px-0">
           <div>
             <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold text-gray-900">

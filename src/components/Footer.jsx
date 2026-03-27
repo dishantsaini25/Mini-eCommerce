@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fa';
 
 const Footer = () => {
-  const companyName = 'QuickCart'; // Replace with your company name
+  const companyName = 'Shopping Cart'; 
   const punchLine = 'Your Trusted Online Shopping Destination';
 
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           
-          {/* Left Section: Company Info + Social Icons */}
+         
           <div className="space-y-6">
             <div>
                <FaOpencart className="h-10 w-10 text-green-600" />
@@ -36,7 +36,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Center Section: Navigation Links */}
           <div className="space-y-6">
             <h4 className="text-lg font-semibold text-white">Quick Links</h4>
             <div className="space-y-3">
@@ -47,7 +46,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Right Section: Guide & Help */}
           <div className="space-y-6">
             <h4 className="text-lg font-semibold text-white">Guide & Help</h4>
             <div className="space-y-3">
@@ -72,7 +70,6 @@ const Footer = () => {
 
         </div>
 
-        {/* Bottom Copyright */}
         <div className="border-t border-gray-800 pt-8 mt-12 text-center">
           <p className="text-gray-500 text-sm">
             © 2026 {companyName}. All rights reserved.
